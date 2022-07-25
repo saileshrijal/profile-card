@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+/* font-family: 'Lato', sans-serif;  */
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css");
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif; 
+}
+
+body{
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+section{
+    height: 32rem;
+    width: 24rem;
+    background-color: white;
+}
+
+.header{
+    height: 14rem;
+
+}
+
+.header img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+
+.content{
+    padding: 1rem;
+}
+
+.content .name{
+    margin: 0.3rem 0;
+    font-size: 1.8rem;
+}
+
+.content .post{
+    margin-bottom: 0.6rem;
+    color: rgb(18, 0, 119);
+}
+
+.content .about{
+    margin-top: 0.6rem;
+    text-align: justify;
+}
+
+.social{
+    margin-top: 0.8rem;
+}
+
+.social a{
+    color: rgb(18, 0, 119);
+    font-size: 1.4rem;
+    margin-right: 0.4rem;
+}
